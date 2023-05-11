@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don Don Ziki</title>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="./libs/bootsrap/css/bootstrap.min.css">
+    <!-- FONTS -->
+    <link rel="stylesheet" href="./libs/fonts/font-awesome.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <main>
+        <section class="scores mt-xl-5 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-9 mx-auto d-flex justify-content-between">
+                        <div class="left-score text-center">
+                            <h2>IGROK</h2>
+                            <p id="left-ball">0</p>
+                        </div>
+                        <div class="right-score text-center">
+                            <h2>COMPUTER</h2>
+                            <p id="right-ball">0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="intro mt-5" id="intro">
+            <div class="container">
+                <div class="row">
+                    <div class="col-7 mx-auto text-center">
+                        <h1>Tosh, Qaychi, Qog'oz</h1>
+                        <p id="start-game">O'yinni boshlang</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="results mt-xl-5" id="results">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8 mx-auto">
+                        <div class="winner text-center">
+                            <h2 id="started">Variantlardan birini tanlang</h2>
+                            <h2 id="win">Siz yutdingiz</h2>
+                            <h2 id="lose">Siz yutqazdingiz</h2>
+                            <h2 id="draw">Durrang</h2>
+                        </div>
+
+                        <div class="results-img mt-5 d-flex justify-content-between">
+                            <div class="left-img">
+                                <img id="left-r" src="./img/Rock.png" alt="">
+                                <img id="left-s" src="./img/Scissors.png" alt="">
+                                <img id="left-p" src="./img/Paper.png" alt="">
+                            </div>
+                            <div class="right-img">
+                                <img id="right-r" src="./img/Rock.png" alt="">
+                                <img id="right-s" src="./img/Scissors.png" alt="">
+                                <img id="right-p" src="./img/Paper.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="chois mt-5" id="chois">
+            <div class="container">
+                <div class="row">
+                    <div class="col-9 mx-auto d-flex justify-content-between">
+                        <div class="chois-img">
+                            <img id="tosh" src="./img/tosh.png" alt="">
+                        </div>
+                        <div class="chois-img">
+                            <img id="qogoz" src="./img/Paper.png" alt="">
+                        </div>
+                        <div class="chois-img">
+                            <img id="qaychi" src="./img/qaychi.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="./libs/bootsrap/js/bootstrap.min.js"></script>
+    <script src="./libs/bootsrap/js/jquery.min.js"></script>
+    <script src="./libs/bootsrap/js/popper.min.js"></script>
+    <!-- JAVA SCRIPT -->
+    <script src="./script.js"></script>
+</body>
+
+</html>

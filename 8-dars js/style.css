@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* body{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   height: 100vh;
+   flex-direction: column;
+  } */
+  ul,li{
+    list-style:none;
+  }
+
+  .toogle{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  .toogle div{
+    height: 3px;
+    width: 40px;
+    background-color: black;
+  }
+
+  .list-hidden{
+    display: none;
+  }
+  .list{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+  }
+  .list li{
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px;
+    transition: background-color 0.4s ease-in-out;
+    cursor: pointer;
+  }
+  .list li:hover{
+    background-color: rgb(206, 168, 168);
+  }

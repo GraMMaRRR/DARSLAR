@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin:0 ;
+}
+.wrap{
+    width: 80%;
+    height: 650px;
+    border: 5px solid green ;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.wrap .box{
+    width:200px ;
+    height:200px ;
+    background-color: red;
+    border: 1px solid rgb(221, 23, 23);
+    color: white;
+
+}
+.wrap .box:nth-child(odd){
+    align-self: flex-start;
+}
+.wrap .box:nth-child(3){
+    align-self: flex-start;
+}
+.wrap .box:nth-child(
+    
+)

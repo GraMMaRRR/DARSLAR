@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* navbar qismi */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.navbar-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 340px;
+}
+.navbar h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #244D4D;
+}
+.navbar-list a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #161616;
+}
+.navbar span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70px;
+}
+
+
+/* header qismi */
+.header{
+    display: flex;
+   padding-top: 30px;
+}
+
+.header-img{
+    width: 411px;
+    height: 560px;
+}
+.header-img img{
+    display: flex;
+    width: 100%;
+}
+.header-box{
+    background-color: #154444;
+    height: 560px;
+    width: calc(100% - 411px);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    flex-direction: column;
+}
+
+.header-box div{
+    margin-left: 70px;
+}
+
+.header-box h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 68px;
+    width: 671px;
+    color: #FFFFFF;
+}
+.header-box p{
+    width: 488px;
+    height: 75px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 13px 0;
+    color: #FFFFFF;
+}
+.header-box button{
+    background: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+.section{
+    margin-top: 40px ;
+}
+.section-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: #244D4D;
+}
+.section-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.class{
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #383738;
+}
+.class-title{
+    display: flex;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #244D4D;
+    text-align: center;
+    justify-content: center;
+}

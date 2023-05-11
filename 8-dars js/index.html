@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <template lang="vue"></template>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+    <!-- <style>
+        #wrapper{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+            background-color: blue;
+        }
+        #black
+        {
+            padding: 8px 16px;
+            margin: 0 5px;
+        }
+        #blue
+        {
+            padding: 8px 16px;
+            margin: 0 5px;
+            color: blue;
+        }
+    </style> -->
+<body>
+    <img src="menu.png" alt="">
+
+
+    <div id="toogle">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <ul class="list">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contacts</li>
+    </ul>
+
+
+<script>
+    var toogleElement = document.querySelector(".toogle")
+    var listElement = document.querySelector(".list")
+
+    toogleElement.addEventListener("click",function(){
+        listElement.classList.toggle("list-hidden")
+    })
+</script>
+
+
+
+    <!-- <h1 id="count">0</h1>
+        <button id="btn">qoshish</button>
+        <button id="btn_2">ayirish</button>
+    <button id="btn_3">reset</button> -->
+
+
+    <!-- <h1 id="count">0</h1>
+    <input id="input" type="text">
+    <button id="result">hisobla</button> -->
+
+
+    <!-- <div id="wrapper">
+        <button id="black">Black</button>
+        <button id="blue">blue</button>
+    </div> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
